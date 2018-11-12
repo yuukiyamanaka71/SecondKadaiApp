@@ -12,6 +12,7 @@
 		35E8074C219047D400EAC42A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E8074A219047D400EAC42A /* Main.storyboard */; };
 		35E8074E219047D600EAC42A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35E8074D219047D600EAC42A /* Assets.xcassets */; };
 		35E80751219047D600EAC42A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E8074F219047D600EAC42A /* LaunchScreen.storyboard */; };
+		35E80759219048F100EAC42A /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E80758219048F100EAC42A /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		35E8074D219047D600EAC42A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35E80750219047D600EAC42A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35E80752219047D600EAC42A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35E80758219048F100EAC42A /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				35E8074D219047D600EAC42A /* Assets.xcassets */,
 				35E8074F219047D600EAC42A /* LaunchScreen.storyboard */,
 				35E80752219047D600EAC42A /* Info.plist */,
+				35E80758219048F100EAC42A /* ResultViewController.swift */,
 			);
 			path = SecondKadaiApp;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				35E80749219047D400EAC42A /* ViewController.swift in Sources */,
 				35E80747219047D400EAC42A /* AppDelegate.swift in Sources */,
+				35E80759219048F100EAC42A /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3K53KB3H2;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3K53KB3H2;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
